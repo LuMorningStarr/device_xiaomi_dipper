@@ -40,6 +40,10 @@ on boot
     chown gps system /dev/bbd_sensor
     chmod 0774 /dev/bbd_sensor
 
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
 on post-fs-data
     mkdir /data/vendor/gps
     mkdir /data/vendor/gps/log
