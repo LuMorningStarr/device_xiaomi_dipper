@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
+    com.android.nfc_extras \
     NfcNci \
     Tag \
     android.hardware.secure_element@1.1 \
@@ -132,10 +133,6 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libpiex_shim_dipper
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/pn5xx
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
