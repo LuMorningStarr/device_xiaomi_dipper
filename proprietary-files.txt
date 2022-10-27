@@ -189,6 +189,9 @@ vendor/firmware/dipper_ois_liteon.coeff
 vendor/firmware/dipper_ois_liteon.prog
 vendor/firmware/dipper_ois.prog
 
+# Display calibration
+vendor/etc/dsi_ss_ea8074_notch_fhd_cmd_display_mi.xml
+
 # Display configs
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
