@@ -34,9 +34,9 @@
         <item>02-cool:dynamic</item>
         <item>P3_CE:dci_p3</item>
         <item>srgb_d65:srgb</item>
-        <item>41game1:game1</item>
-        <item>42game2:game2</item>
-        <item>43game3:game3</item>
+        <item>41game1:game_1</item>
+        <item>42game2:game_2</item>
+        <item>43game3:game_3</item>
     </string-array>
 
     <!-- Should we filter any display modes which are unampped? -->
