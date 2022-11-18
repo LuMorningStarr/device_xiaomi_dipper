@@ -29,4 +29,7 @@
     <string name="config_batteryDesignCapacity">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Whether build status should be shown or not. -->
+    <bool name="config_show_build_status">true</bool>
 </resources>
