@@ -247,7 +247,6 @@ vendor/lib/libpn553_fw.so
 # Secure element - from pyxis - RKQ1.200826.002/21.3.31
 vendor/bin/hw/vendor.qti.secure_element@1.0-service|48621dda1de283dcf0f5c93f0d17bcd53f3f2072
 vendor/etc/init/vendor.qti.secure_element@1.0-service.rc|14796c45011ad0d4735e0f3c9dbc646e6af205aa
-vendor/lib/hw/android.hardware.secure_element@1.0-impl.so|e4f0c5062a449ce5c1b2ceedc922249fc8a01af2
 vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so|89b58b5dbc92ab33bbc0132dff343a8a5c13a93b
 
 # Sensors
