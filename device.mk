@@ -15,13 +15,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    ApertureOverlay \
-    DipperFrameworksOverlay \
-    DipperNoCutoutOverlay \
-    DipperSettingsOverlay \
-    DipperSettingsProviderOverlay \
-    DipperSystemUIOverlay \
-    FaceUnlockServiceOverlay
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
